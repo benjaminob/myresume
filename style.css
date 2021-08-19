@@ -1,0 +1,304 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat'
+}
+
+header div{
+    width: 100%;
+    height: 80px;
+    background-color: #ecfaff;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+header div h1{
+    font-weight: 900;
+    color: #020336;
+    font-size: 60px;
+    margin: 0;
+    padding-top: 5px;
+}
+
+.profile img{
+    width: 300px;
+}
+
+.profile h1{
+    font-weight: 800;
+    font-size: 35px;
+    color: #020336;
+}
+
+.name{
+    margin-top: -20px;
+}
+
+.profile .job{
+    font-size: 20px;
+    color: #020336;
+    margin-top: -20px;
+}
+
+.profile i{
+    font-size: 25px;
+    color: #020336;
+}
+
+.cont{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    margin-top: -25px;
+}
+
+.contact p{
+    font-weight: bold;
+    font-size: 20px;
+    color: #020336;
+    padding-left: 10px;
+}
+
+.social i{
+    margin-right: 30px;
+    font-size: 30px;
+    color: #068fc5;
+}
+
+.about{
+    width: 100%;
+    height: 420px;
+    background-color:  #ecfaff;
+}
+
+.about .container{
+    width: 75%;
+}
+
+.about .container h1{
+    font-weight: 900;
+    color: #020336;
+    font-size: 35px;
+    padding-top: 50px;
+}
+
+.about .container p{
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.education h1{
+    font-weight: 900;
+    color: #020336;
+    font-size: 35px;
+}
+
+.education01{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.education01 h2{
+    font-size: 25px;
+}
+
+.education01 p{
+    font-size: 25px;
+    margin-top: -20px;
+}
+
+.work{
+    width: 100%;
+    height: 650px;
+    background-color:  #ecfaff;
+}
+
+.work .container{
+    width: 75%;
+}
+
+.work .container h1{
+    font-weight: 900;
+    color: #020336;
+    font-size: 35px;
+    padding-top: 30px;
+}
+
+footer div{
+    width: 100%;
+    height: 55px;
+    background-color: #020336;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+footer p{
+    color: white;
+    font-size: 20px;
+}
+@media only screen and (max-width: 1050px) {
+    .about .container h1{
+        font-weight: 900;
+        color: #020336;
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    
+    .about .container p{
+        font-size: 20px;
+        line-height: 40px;
+        margin-top: -15px;
+    }
+
+    .education h1{
+        font-weight: 900;
+        color: #020336;
+        font-size: 30px;
+    }
+
+    .education01 h2{
+        font-size: 20px;
+    }
+
+    .education01 p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+
+    .work .container h1{
+        font-weight: 900;
+        color: #020336;
+        font-size: 30px;
+        padding-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .about{
+        width: 100%;
+        height: 490px;
+        background-color:  #ecfaff;
+    }
+
+    .work{
+        width: 100%;
+        height: 530px;
+        background-color:  #ecfaff;
+    }
+
+    .education01{
+        display: flex;
+        width: 70%;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: auto;
+    }
+
+    .education01 p{
+        font-size: 20px;
+        margin-top: -17px;
+    }
+
+    footer div{
+        width: 100%;
+        height: 40px;
+        background-color: #020336;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+
+    footer p{
+        font-size: 15px;
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    header div h1{
+        font-weight: 900;
+        color: #020336;
+        font-size: 50px;
+        margin: 0;
+        padding-top: 5px;
+    }
+
+    .about .container p{
+        font-size: 15px;
+        line-height: 35px;
+        margin-top: -15px;
+    }
+
+    .education01{
+        display: flex;
+        width: 75%;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: auto;
+    }
+
+    .education01 h2{
+        font-size: 15px;
+        line-height: 17px;
+    }
+
+    .education01 p{
+        font-size: 15px;
+        margin-top: -10px;
+    }
+
+    .work{
+        width: 100%;
+        height: 450px;
+        background-color:  #ecfaff;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    header div h1{
+        font-weight: 900;
+        color: #020336;
+        font-size: 40px;
+        margin: 0;
+        padding-top: 5px;
+    }
+
+    header div{
+        width: 100%;
+        height: 60px;
+        background-color: #ecfaff;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+
+    .profile img{
+        width: 250px;
+    }
+
+    .profile h1{
+        font-weight: 800;
+        font-size: 25px;
+        color: #020336;
+    }
+
+    p.job{
+        font-size: 5px;
+    }
+}
